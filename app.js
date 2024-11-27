@@ -10,8 +10,8 @@ const app = express()
 [ROUTE] '/'
 [Response] => Hello world!
  */
-app.get('/', (req, res) => {
-    res.send('Hello world!\n')
+app.get('/aku', (req, res) => {
+    res.send('ramadhan_fatra')
 })
 
 /*
